@@ -1,0 +1,29 @@
+{
+  "name": "ama-bot",
+  "version": "1.0.0",
+  "description": "Backend server for Slack ama bot",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/commoncode/ama-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/commoncode/ama-bot/issues"
+  },
+  "homepage": "https://github.com/commoncode/ama-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "botkit": "^0.7.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
